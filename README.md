@@ -130,15 +130,6 @@ These insights will support roadway planning, operational control strategies, an
 
 > Documents included in this repository provide full explanations of table structures, API mechanisms, analysis frameworks, and research objectives.
 
----
-
-## 🔗 9. Repository Links
-
-### **GitHub Repository**
-https://github.com/tasadapullo-svg/MalaysiaTransportationPlanning1205
-
-### **Google Drive (Data Storage)**
-https://drive.google.com/drive/folders/1POlZNwPbIbJqRheKCC-6XdF3cLJ15dI1?usp=drive_link
 
 ---
 
@@ -148,6 +139,4 @@ It aims to serve as a pioneer of “software-defined traffic sensing” for tran
 
 ---
 
-## 📄 License
-MIT License (or specify your chosen license)
 
