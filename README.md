@@ -1,3 +1,29 @@
+## Data Availability
+
+The reproducibility package for this study is available through three public access points.
+
+1. **Zenodo archived version**  
+   DOI: https://doi.org/10.5281/zenodo.19998175
+
+2. **GitHub active development version**  
+   Repository: https://github.com/tasadapullo-svg/MalaysiaTransportationPlanning1205.git
+
+3. **Google Drive data folder**  
+   Data folder: https://drive.google.com/drive/folders/1lOXrAU_9R6VJRvZZm-m5S_yxfxv4EZK2?usp=sharing
+
+The Google Drive folder contains the supporting information files, figure files, Python cleaning scripts, TomTom processed data, HERE benchmark data, and data summary tables used during manuscript preparation.
+
+Raw API responses are not redistributed because TomTom and HERE platform terms may restrict redistribution of vendor-returned raw responses. The released cleaned and aggregated tables are sufficient to reproduce the reported figures, tables, and benchmark statistics. API keys, account credentials, and private access tokens are excluded.
+
+
+The cleaned data tables, processing scripts, benchmark scripts, configuration files, figure-reproduction data, and data dictionary required to reproduce the reported figures, tables, and benchmark statistics are archived on Zenodo with DOI: https://doi.org/10.5281/zenodo.19998175.
+
+The active development version and project files are available in the public GitHub repository: https://github.com/tasadapullo-svg/MalaysiaTransportationPlanning1205.git.
+
+The data folders used for manuscript preparation, including the supporting information files, figures, Python cleaning scripts, TomTom processed data, HERE benchmark data, and summary tables, are also available through Google Drive: https://drive.google.com/drive/folders/1lOXrAU_9R6VJRvZZm-m5S_yxfxv4EZK2?usp=sharing.
+
+Raw API responses are not redistributed because TomTom and HERE platform terms may restrict redistribution of vendor-returned raw responses. The released cleaned and aggregated tables are sufficient to reproduce the reported figures, tables, and benchmark statistics. API keys, account credentials, and private access tokens are excluded.
+
 # Pan Borneo Highway (Serian–Simanggang Section)  
 ## High-Frequency Traffic Flow Data Acquisition & Analysis System
 
