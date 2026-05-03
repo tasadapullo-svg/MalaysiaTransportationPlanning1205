@@ -1,0 +1,19 @@
+variable,source,unit,level,direction,definition
+point_id,TomTom,None,point,identifier,Virtual monitoring point ID.
+block_id,TomTom/HERE,None,benchmark block,identifier,Benchmark block used for TomTom-HERE comparison.
+interval_15min,TomTom,time,point-time,identifier,15 min timestamp after temporal standardization.
+interval_30min,TomTom/HERE,time,block-time,identifier,30 min timestamp used for benchmark matching.
+current_speed,TomTom,km/h,point-time,higher=faster,Current speed returned by TomTom.
+free_flow_speed,TomTom,km/h,point-time,higher=faster,Free-flow speed returned by TomTom.
+current_travel_time,TomTom,seconds,point-time,higher=slower,Current travel time returned by TomTom.
+free_flow_travel_time,TomTom,seconds,point-time,baseline,Free-flow travel time returned by TomTom.
+srr,TomTom,dimensionless,point-time,higher=worse,Speed reduction ratio relative to free-flow speed.
+tti,TomTom,dimensionless,point-time,higher=worse,Current travel time divided by free-flow travel time.
+ett_seconds,TomTom,seconds,point-time,higher=worse,Extra travel time relative to free-flow travel time.
+ci_percent,TomTom,percent,point-time,higher=worse,Travel-time increase relative to free-flow travel time.
+here_mean_jam_factor,HERE,dimensionless,block-time,higher=worse,Mean HERE jam factor aggregated by benchmark block and 30 min interval.
+availability_rate,TomTom,ratio,daily,higher=better,Observed valid records divided by expected daily records.
+missing_rate,TomTom,ratio,daily,higher=worse,One minus daily availability rate.
+pearson_r,TomTom-HERE,dimensionless,benchmark,higher absolute=stronger linear consistency,Linear association between TomTom CI and HERE jam factor.
+spearman_rho,TomTom-HERE,dimensionless,benchmark,higher absolute=stronger rank consistency,Rank association between TomTom CI and HERE jam factor.
+peak_overlap_index,TomTom-HERE,dimensionless,benchmark,higher=stronger overlap,Jaccard overlap of high-pressure periods detected by both platforms.
