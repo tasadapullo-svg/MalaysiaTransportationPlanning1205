@@ -1,0 +1,42 @@
+﻿item,value,status,note
+original_file_status,NOT ANALYSIS-READY,FAIL,date/time are missing and here_block is Unknown
+fixed_file_status,ANALYSIS-READY WITH CAVEAT,PASS,time fields restored from source_file; block assigned by nearest TomTom point
+files_found,1736,PASS,
+success_files,1736,PASS,
+failed_files,0,PASS,
+raw_geometry_rows,44361545,PASS,
+valid_geometry_rows,44361545,PASS,
+segment_level_rows,589706,PASS,
+date_missing_before_fix,589706,FAIL,original output problem
+time_missing_before_fix,589706,FAIL,original output problem
+date_missing_after_fix,0,PASS,
+time_missing_after_fix,0,PASS,
+here_block_unknown_before_fix,589706,FAIL,original output problem
+here_block_unknown_after_fix,0,PASS,
+date_range_start,2025-12-08,INFO,
+date_range_end,2026-01-14,INFO,
+observed_30min_slots,1736,INFO,
+expected_slots_between_start_end,1777,INFO,inclusive from first to last timestamp
+missing_30min_slots_between_start_end,41,CHECK,see here_missing_time_slots.csv
+slot_coverage_between_start_end,0.976927,CHECK,
+duplicate_date_time_segment,0,PASS,
+missing_road_name,181,CHECK,181 rows only; not critical
+missing_speed_kmh,0,PASS,
+missing_jam_factor,0,PASS,
+invalid_speed_le_0,0,PASS,
+speed_gt_130,0,PASS,
+jam_factor_lt_0,0,PASS,
+jam_factor_gt_10,0,PASS,
+speed_mean_kmh,12.999,INFO,
+speed_min_kmh,0.83,INFO,
+speed_max_kmh,32.5,INFO,
+jam_factor_mean,0.869,INFO,
+jam_factor_max,9.8,INFO,
+lat_range,1.359914 to 2.005412,INFO,
+lon_range,109.640303 to 110.374700,INFO,
+nearest_tomtom_distance_mean_m,5372.401,INFO,
+nearest_tomtom_distance_p95_m,13299.693,CHECK,HERE area is wider than TomTom point corridor
+nearest_tomtom_distance_max_m,24235.352,CHECK,far segments should be handled carefully in block comparison
+block_records_Block 3,508220,INFO,
+block_records_Block 1,53781,INFO,
+block_records_Block 2,27705,INFO,

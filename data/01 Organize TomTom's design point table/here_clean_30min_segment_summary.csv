@@ -1,0 +1,11 @@
+﻿item,value
+files_found,1736.0
+success_files,1736.0
+failed_files,0.0
+raw_rows,44361545.0
+valid_rows,44361545.0
+segment_level_rows,589706.0
+date_count,0.0
+time_slot_count,1.0
+unique_here_segments,589706.0
+mean_geometry_points_per_segment,75.22654509196109
