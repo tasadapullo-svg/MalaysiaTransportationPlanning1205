@@ -1,0 +1,9 @@
+TomTom point reference check summary
+Output file: tomtom_point_reference_final.csv
+Important note: no raw 2025-12-12 TomTom record table was uploaded. Therefore active points were assigned by the ordered coordinate reference table: T001-T042 active; T043-T051 planned only. Revalidate active_flag using frequency-slot counts when raw records are available.
+
+designed_points: 51
+active_analytical_points: 42
+planned_only_points: 9
+here_block_counts_all: {'Block 3': 13, 'Block 2': 22, 'Block 1': 16}
+here_block_counts_active: {'Block 3': 13, 'Block 2': 22, 'Block 1': 7}
